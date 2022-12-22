@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ViceCitySans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/ViceCitySans.otf) format("opentype");
+}
+
+.router-link-active {
+  color: #00A0E9;
+}
+
+.btn {
+  @apply text-white px-8 py-2 w-[160px] bg-gradient-to-r from-cyan-500 to-[#4f46e5] text-center tracking-[1px];
+}
